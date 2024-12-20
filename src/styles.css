@@ -1,0 +1,202 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.green-button {
+  background-color: lightgreen;
+  color: black;
+  border: 1px solid black; /* מסגרת דקה בצבע שחור */
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* לא חובה, בשביל עיצוב עגול */
+  margin-top: 5px; /* רווח מעל הכפתור */
+  margin-bottom: 5px; /* רווח מעל הכפתור */
+  margin-left: 1px; /* רווח מעל הכפתור */
+  margin-left: 1px; /* רווח מעל הכפתור */
+
+}
+
+
+.gray-button {
+  background-color: rgba(166, 164, 164, 0.566);
+  color: black;
+  border: 0.5px solid black; /* מסגרת דקה בצבע שחור */
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* לא חובה, בשביל עיצוב עגול */
+  margin-top: 5px; /* רווח מעל הכפתור */
+  margin-bottom: 4px;
+}
+
+.rounded-box {
+  background-color: rgb(183, 238, 255);
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+  border: 2px solid #00796b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 25px; /* התאמה לפי הצורך */
+  left: 168px; /* התאמה לפי הצורך */
+  width: 350px;
+  height: 600px;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden; /* מניעת גלילה אופקית */
+}
+
+.right-align {
+  background-color: #fdfeeb;
+  position: fixed;
+  top: 112px; /* התאמה לפי הצורך */
+  left: 600px; /* התאמה לפי הצורך */
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  width: 250px;
+  max-height: 90vh;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden; /* מניעת גלילה אופקית */
+}
+
+
+.user-box {
+  background-color: #fdfeeb;
+  width: 100%; /* תופס 100% מהרוחב של הקונטיינר */
+  max-width: 400px; /* רוחב מקסימלי של כל רכיב */
+  border: 2px solid #ccc; /* מסגרת אפורה בהירה */
+  border-radius: 20px; /* פינות מעוגלות יותר */
+  padding: 15px; /* רווח פנימי נדיב */
+  text-align: center; /* יישור טקסט למרכז */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל עדין */
+  font-size: 16px; /* גודל טקסט קריא */
+  color: #333; /* טקסט בצבע כהה */
+  margin-bottom: 15px; /* רווח בין כל רכיב */
+  align-items: center
+}
+.user-box:hover {
+  background-color: #f9dde0; /* צבע אדום בהיר */
+  transition: background-color 0.3s ease; /* אפקט רך להחלפת צבע */
+}
+.user-box.completed {
+  border-color: green; /* מסגרת ירוקה */
+}
+.user-box.incomplete {
+  border-color: red; /* מסגרת אדומה */
+}
+
+.todo_post-box {
+  background-color: #fdfeeb;
+  width: 100%; /* תופס 100% מהרוחב של הקונטיינר */
+  max-width: 300px; /* רוחב מקסימלי של כל רכיב */
+  border: 2px solid #ccc; /* מסגרת אפורה בהירה */
+  border-radius: 20px; /* פינות מעוגלות יותר */
+  padding: 15px; /* רווח פנימי נדיב */
+  text-align: center; /* יישור טקסט למרכז */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל עדין */
+  font-size: 16px; /* גודל טקסט קריא */
+  color: #333; /* טקסט בצבע כהה */
+  margin-bottom: 15px; /* רווח בין כל רכיב */
+  align-items: center;
+  margin-top: 5px; /* רווח מעל הכפתור */
+  margin-bottom: 5px;
+}
+
+
+.right-align-todos {
+  background-color: #fdfeeb;
+  position: fixed;
+  top: 25px; /* מיקום מותאם אישית */
+  left: 600px; /* מיקום מותאם אישית */
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  width: 350px;
+  height: 298px; /* גובה מותאם אישית */
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden; /* מניעת גלילה אופקית */
+}
+
+.right-align-posts {
+  background-color: #fdfeeb;
+  position: fixed;
+  bottom: 10px; /* מיקום מותאם אישית */
+  left: 600px; /* מיקום מותאם אישית */
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  width: 350px;
+  height: 298px; /* גובה מותאם אישית */
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden; /* מניעת גלילה אופקית */
+}
+
+
+
+.center-content {
+  display: flex; /* הופך את הרכיב למיכל Flexbox */
+  flex-direction: column; /* כדי לשמור על יישור תוכן אנכי */
+  justify-content: center; /* ממרכז אנכית */
+  align-items: center; /* ממרכז אופקית */
+}
+
+
+
+
+
+.otherData-box {
+  width: 100%; /* תופס 100% מהרוחב של הקונטיינר */
+  max-width: 400px; /* רוחב מקסימלי של כל רכיב */
+  background-color: #f9f9f9; /* צבע רקע בהיר */
+  border: 2px solid #ccc; /* מסגרת אפורה בהירה */
+  border-radius: 20px; /* פינות מעוגלות יותר */
+  padding: 15px; /* רווח פנימי נדיב */
+  text-align: center; /* יישור טקסט למרכז */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל עדין */
+  font-size: 16px; /* גודל טקסט קריא */
+  color: #333; /* טקסט בצבע כהה */
+  margin-bottom: 15px; /* רווח בין כל רכיב */
+  align-items: center;
+  margin: 0 auto; /* ממרכז את הקונטיינר */
+  padding: 0rem; /* רווח פנימי אם צריך */
+
+}
+
+.inline-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inline-box input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+
+
+
+
