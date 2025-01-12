@@ -134,7 +134,7 @@
 .right-align-posts {
   background-color: #fdfeeb;
   position: fixed;
-  bottom: 10px;
+  top: 360px; 
   left: 600px;
   border: 2px solid #ccc;
   border-radius: 20px;
