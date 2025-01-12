@@ -20,7 +20,10 @@ Built using **React**, with a focus on modularity and user experience.
   - Easily find users by name or email.
 - **Dynamic Styling:**
   - Visual distinction between users based on todo completion status.
-
+    
+---
+![update_user](./imagesReadme/todos1.jpg)
+![todos_and_posts](./imagesReadme/todos2.jpg)
 ---
 
 ## Installation
